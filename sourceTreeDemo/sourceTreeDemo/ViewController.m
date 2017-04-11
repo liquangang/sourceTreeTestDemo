@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self testMethod];
+    [self testSecondMethod];
 }
 
 
@@ -32,6 +33,12 @@
     NSLog(@"测试方法1");
     NSLog(@"测试方法1");
     NSLog(@"测试方法1");
+}
+
+- (void)testSecondMethod{
+    NSLog(@"测试方法2");
+    NSLog(@"测试方法2");
+    NSLog(@"测试方法2");
 }
 
 @end
